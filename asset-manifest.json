@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/react-app-with-typescript/static/css/main.56393581.css",
+    "main.js": "/react-app-with-typescript/static/js/main.f835624a.js",
+    "static/js/787.198f4a16.chunk.js": "/react-app-with-typescript/static/js/787.198f4a16.chunk.js",
+    "static/media/table.png": "/react-app-with-typescript/static/media/table.528602aa03371a6f4651.png",
+    "static/media/lamp.png": "/react-app-with-typescript/static/media/lamp.77d757bcfa0f8589b3b2.png",
+    "static/media/sofa.png": "/react-app-with-typescript/static/media/sofa.c60584a3e49098142709.png",
+    "static/media/chair.png": "/react-app-with-typescript/static/media/chair.5d1b6d7784830cbe3ade.png",
+    "index.html": "/react-app-with-typescript/index.html",
+    "main.56393581.css.map": "/react-app-with-typescript/static/css/main.56393581.css.map",
+    "main.f835624a.js.map": "/react-app-with-typescript/static/js/main.f835624a.js.map",
+    "787.198f4a16.chunk.js.map": "/react-app-with-typescript/static/js/787.198f4a16.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.56393581.css",
+    "static/js/main.f835624a.js"
+  ]
+}
