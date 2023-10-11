@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-app-with-typescript/static/css/main.9ce95858.css",
-    "main.js": "/react-app-with-typescript/static/js/main.6783a012.js",
+    "main.css": "/react-app-with-typescript/static/css/main.c3b61d19.css",
+    "main.js": "/react-app-with-typescript/static/js/main.c11938a0.js",
     "static/js/787.198f4a16.chunk.js": "/react-app-with-typescript/static/js/787.198f4a16.chunk.js",
     "static/media/table.png": "/react-app-with-typescript/static/media/table.528602aa03371a6f4651.png",
     "static/media/lamp.png": "/react-app-with-typescript/static/media/lamp.77d757bcfa0f8589b3b2.png",
@@ -10,12 +10,12 @@
     "static/media/start.svg": "/react-app-with-typescript/static/media/start.5c20dd6d6ee7e97e46face357cf118eb.svg",
     "index.html": "/react-app-with-typescript/index.html",
     "static/media/arrow.svg": "/react-app-with-typescript/static/media/arrow.89765074542d31735f8e93ee52f767c6.svg",
-    "main.9ce95858.css.map": "/react-app-with-typescript/static/css/main.9ce95858.css.map",
-    "main.6783a012.js.map": "/react-app-with-typescript/static/js/main.6783a012.js.map",
+    "main.c3b61d19.css.map": "/react-app-with-typescript/static/css/main.c3b61d19.css.map",
+    "main.c11938a0.js.map": "/react-app-with-typescript/static/js/main.c11938a0.js.map",
     "787.198f4a16.chunk.js.map": "/react-app-with-typescript/static/js/787.198f4a16.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9ce95858.css",
-    "static/js/main.6783a012.js"
+    "static/css/main.c3b61d19.css",
+    "static/js/main.c11938a0.js"
   ]
 }
