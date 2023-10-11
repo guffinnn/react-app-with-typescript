@@ -1,46 +1,64 @@
-# Getting Started with Create React App
+# Тестовое задание React с использованием TypeScript, Sass, SCSS ...
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
+Добро пожаловать в приложение "Магазин IKEA"!
 
-### `npm start`
+# Ознакомиться с веб-приложением
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Перейдите по ссылке:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+```
+https://guffinnn.github.io/react-app-with-typescript/
+```
 
-### `npm test`
+## Установка
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Склонируйте репозиторий на локальную машину:
 
-### `npm run build`
+```
+git clone https://github.com/guffinnn/react-app-with-typescript.git
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. Перейдите в директорию проекта:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+cd front-test-case
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. Установите зависимости:
 
-### `npm run eject`
+```
+npm install
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Использование
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Запустите приложение с помощью команды:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```
+npm start
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Откройте ваш браузер и перейдите на страницу по адресу [http://localhost:3000](http://localhost:3000), чтобы начать использовать приложение "Магазин IKEA".
 
-## Learn More
+## Особенности приложения
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Просмотр расписания общественного транспорта
+- Поиск маршрутов и остановок
+- Отображение актуального расписания
+- Информация о задержках и изменениях в расписании
+- Интуитивно понятный интерфейс пользователя
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Технологии
+
+- [React.js](https://reactjs.org/)
+
+## Вклад
+
+Если вы нашли ошибку или хотите предложить новую функциональность, пожалуйста, создайте [issue](https://github.com/guffinnn/react-app-with-typescript/issues) или отправьте свой пул-реквест. Мы будем рады вашим вкладам!
+
+## Автор
+
+- Имя: Даниил Дашкевич
+- GitHub: guffinnn(https://github.com/guffinnn)
