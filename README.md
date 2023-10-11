@@ -1,6 +1,6 @@
 # Тестовое задание React с использованием TypeScript, Sass, SCSS ...
 
-
+![Macbook_Air_Mockup_1 копия](https://github.com/guffinnn/react-app-with-typescript/assets/119128764/a0391524-d803-4ed9-8d2f-8ebb0c6e6c84)
 
 Добро пожаловать в приложение "Магазин IKEA"!
 
