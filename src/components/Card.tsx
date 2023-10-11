@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 // Импортирую стили
 import './styles/Card.css';
@@ -27,22 +28,24 @@ interface CardProps {
 const Card: React.FC<CardProps> = ({imgKey, name, price}) => {
     const image = images[imgKey] || chair;
     return (
-        <div className="card__frame">
-            <div className="image__frame">
-                <img src={image} className="image__card" alt={imgKey} />
-                <div className="subtext__frame">
-                    <p className="subtext__content">New</p>
+        <Link to={`/card/${imgKey}`}>
+            <div className="card__frame">
+                <div className="image__frame">
+                    <img src={image} className="image__card" alt={imgKey} />
+                    <div className="subtext__frame">
+                        <p className="subtext__content">New</p>
+                    </div>
+                </div>
+                <div className="text__content__frame">
+                    <div className="heading__frame">
+                        <p className="heading__text">{price}</p>
+                    </div>
+                    <div className="description__frame">
+                        <p className="description__text">{name}</p>
+                    </div>
                 </div>
             </div>
-            <div className="text__content__frame">
-                <div className="heading__frame">
-                    <p className="heading__text">{price}</p>
-                </div>
-                <div className="description__frame">
-                    <p className="description__text">{name}</p>
-                </div>
-            </div>
-        </div>
+        </Link>
     );
 }
 
