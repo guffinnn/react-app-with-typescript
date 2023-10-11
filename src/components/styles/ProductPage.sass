@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400600&display=swap')
+
+$font-open-sans: 'Open Sans', sans-serif
+$color-black: #000
+$background-lightgray: lightgray 50% / cover no-repeat
+
+@mixin flex-start 
+  display: flex
+  align-items: flex-start
+
+
+.product__global__frame, .product__frame, .column1 
+  @include flex-start
+  width: 100%
+  padding: 112px 64px
+  flex-direction: column
+  align-items: center
+  gap: 24px
+
+  background: #FFF
+
+
+.breadcrumbs__frame, .content__frame 
+  @include flex-start
+  align-self: stretch
+
+
+.link__text, .text__content 
+  color: $color-black
+  text-align: center
+  font-family: $font-open-sans
+  font-size: 14px
+  font-style: normal
+  font-weight: 400
+  line-height: 150% /* 21px */
+
+  margin: 0
+
+
+.column2, .frame1, .product__name 
+  @include flex-start
+  flex-direction: column
+
+
+.image__product 
+  height: 640px
+  flex: 1 0 0
+
+  background: $background-lightgray no-repeat
+
+
+.heading__product, .description__price 
+  color: $color-black
+  font-family: $font-open-sans
+  font-style: normal
+  font-weight: 700
+
+  margin: 0
+
+
+.heading__product 
+  font-size: 40px
+  line-height: 120% /* 48px */
+
+
+.description__price 
+  font-size: 24px
+  line-height: 140% /* 33.6px */
+

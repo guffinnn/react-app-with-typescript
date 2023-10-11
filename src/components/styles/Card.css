@@ -2,86 +2,86 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
 
 .container {
-    display: inline-flex;
-    align-items: center;
-    align-content: center;
-    flex-wrap: wrap;
+  display: inline-flex;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
 
-    background: #FFF;
+  background: #FFF;
 }
 
 .card__frame {
-    display: flex;
-    padding: 10px;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 10px;
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
 
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .image__frame {
-    display: flex;
-    position: relative;
-    align-items: flex-start;
-    gap: 10px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  gap: 10px;
 }
 
 .image__card {
-    max-width: 266px;
-    max-height: 266px;
+  max-width: 266px;
+  max-height: 266px;
 
-    border-radius: 7px;
+  border-radius: 7px;
 }
 
 .subtext__frame {
-    display: flex;
-    padding: 3px 8px;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
+  display: flex;
+  padding: 3px 8px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 
-    position: absolute;
-    left: 11px;
-    bottom: 9px;
+  position: absolute;
+  left: 11px;
+  bottom: 9px;
 
-    border-radius: 8px;
-    background: rgba(35, 35, 35, 0.65);
+  border-radius: 8px;
+  background: rgba(35, 35, 35, 0.65);
 }
 
 .subtext__content {
-    color: #FFF;
-    font-family: 'Roboto', sans-serif;
+  color: #FFF;
+  font-family: 'Roboto', sans-serif;
 
-    margin: 0;
+  margin: 0;
 }
 
 .text__content__frame {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
 }
 
 .heading__text {
-    color: #3C3C3C;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
+  color: #3C3C3C;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 
-    margin: 0;
+  margin: 0;
 }
 
 .description__text {
-    color: #3C3C3C;
-    font-family: 'Roboto', sans-serif;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+  color: #3C3C3C;
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 
-    margin: 0;
+  margin: 0;
 }
 
