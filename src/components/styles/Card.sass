@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400600&display=swap')
+
+$font-roboto: 'Roboto', sans-serif
+$font-open-sans: 'Open Sans', sans-serif
+$color-white: #FFF
+$color-black: #3C3C3C
+
+@mixin flex-center 
+  display: flex
+  align-items: center
+
+
+.container 
+  @include flex-center
+  align-content: center
+  flex-wrap: wrap
+  background: $color-white
+
+
+.card__frame, .image__frame, .text__content__frame 
+  @include flex-center
+  flex-direction: column
+  gap: 10px
+
+
+.card__frame, .subtext__frame 
+  padding: 10px
+
+
+.card__frame, .image__card 
+  border-radius: 7px
+
+
+.image__card 
+  max-width: 266px
+  max-height: 266px
+
+
+.subtext__frame 
+  justify-content: center
+  position: absolute
+  left: 11px
+  bottom: 9px
+  background: rgba(35, 35, 35, 0.65)
+
+
+.subtext__content, .heading__text, .description__text 
+  margin: 0
+
+
+.subtext__content 
+  color: $color-white
+  font-family: $font-roboto
+
+
+.heading__text, .description__text 
+  color: $color-black
+
+
+.heading__text 
+  font-family: $font-open-sans
+  font-size: 30px
+  font-weight: 600
+
+
+.description__text 
+  font-family: $font-roboto
+  font-size: 24px
+

@@ -1,4 +1,5 @@
 import React from 'react';
+
 // Импортирую стили CSS
 import './styles/ProductPage.css';
 
